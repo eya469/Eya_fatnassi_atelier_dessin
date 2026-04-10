@@ -1,3 +1,4 @@
+// Logique de dessin : pinceau, gomme, couleurs, taille
 // ==================== SÉLECTION DES ÉLÉMENTS ====================
 const canvas = document.getElementById('drawCanvas');
 const ctx = canvas.getContext('2d');
@@ -208,3 +209,4 @@ applySettings();
 canvas.addEventListener('touchstart', (e) => {
     e.preventDefault();
 });
+Ajout des fonctionnalités de dessin
