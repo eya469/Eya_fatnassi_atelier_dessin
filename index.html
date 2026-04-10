@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎨 Mon Atelier de Dessin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🎨 Mon Atelier de Dessin</h1>
+        <p>Dessine, efface, colorie et sauvegarde ton œuvre !</p>
+    </header>
+
+    <div class="canvas-wrapper">
+        <canvas id="drawCanvas" width="800" height="500"></canvas>
+    </div>
+
+    <div class="tools">
+        <div class="tool-group">
+            <h3>✏️ Outils</h3>
+            <button id="brushBtn" class="active">🖌️ Pinceau</button>
+            <button id="eraserBtn">🧽 Gomme</button>
+            <button id="clearBtn">🗑️ Tout effacer</button>
+        </div>
+
+        <div class="tool-group">
+            <h3>🎨 Couleurs</h3>
+            <div class="color-palette">
+                <div class="color-box" style="background: #000000;" data-color="#000000"></div>
+                <div class="color-box" style="background: #FF0000;" data-color="#FF0000"></div>
+                <div class="color-box" style="background: #00FF00;" data-color="#00FF00"></div>
+                <div class="color-box" style="background: #0000FF;" data-color="#0000FF"></div>
+                <div class="color-box" style="background: #FFFF00;" data-color="#FFFF00"></div>
+                <div class="color-box" style="background: #FF00FF;" data-color="#FF00FF"></div>
+                <div class="color-box" style="background: #00FFFF;" data-color="#00FFFF"></div>
+                <div class="color-box" style="background: #FFA500;" data-color="#FFA500"></div>
+                <div class="color-box" style="background: #800080;" data-color="#800080"></div>
+                <div class="color-box" style="background: #FFC0CB;" data-color="#FFC0CB"></div>
+                <div class="color-box" style="background: #8B4513;" data-color="#8B4513"></div>
+                <div class="color-box" style="background: #FFFFFF; border: 1px solid #ccc;" data-color="#FFFFFF"></div>
+            </div>
+            <input type="color" id="customColor" value="#000000">
+        </div>
+
+        <div class="tool-group">
+            <h3>📏 Taille du pinceau</h3>
+            <input type="range" id="brushSize" min="1" max="50" value="5">
+            <span id="sizeValue">5px</span>
+        </div>
+
+        <div class="tool-group">
+            <h3>💾 Sauvegarde</h3>
+            <button id="saveBtn">📸 Télécharger l'image</button>
+        </div>
+
+        <div class="tool-group">
+            <h3>⌨️ Raccourcis clavier</h3>
+            <ul class="shortcuts">
+                <li><kbd>B</kbd> : Pinceau</li>
+                <li><kbd>E</kbd> : Gomme</li>
+                <li><kbd>C</kbd> : Tout effacer</li>
+                <li><kbd>S</kbd> : Sauvegarder</li>
+                <li><kbd>+</kbd> / <kbd>-</kbd> : Taille pinceau</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
