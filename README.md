@@ -20,7 +20,7 @@ Une application web interactive de dessin qui permet aux utilisateurs de créer 
 -  Interface responsive (mobile/tablette/desktop)
 
 ##  Lien GitHub Pages
-[Cliquez ici pour tester l'application](https://TON-NOM-UTILISATEUR.github.io/NOM_DU_DEPOT)
+[Cliquez ici pour tester l'application](https://eya469.github.io/Eya_fatnassi_atelier_dessin/)
 
 ## Nouveautés explorées
 - Manipulation avancée du **Canvas API** (paths, strokes, gestion des coordonnées)
