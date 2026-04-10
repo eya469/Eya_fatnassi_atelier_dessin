@@ -212,4 +212,4 @@ canvas.addEventListener('touchstart', (e) => {
 });
 Ajout des fonctionnalités de dessin
 // Raccourcis clavier : B (pinceau), E (gomme), C (effacer), S (sauvegarder)
-Ajout des raccourcis clavier
+
