@@ -1,3 +1,4 @@
+// Fonctionnalités : pinceau, gomme, couleurs, taille variable
 // Logique de dessin : pinceau, gomme, couleurs, taille
 // ==================== SÉLECTION DES ÉLÉMENTS ====================
 const canvas = document.getElementById('drawCanvas');
