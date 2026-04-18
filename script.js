@@ -211,5 +211,4 @@ canvas.addEventListener('touchstart', (e) => {
 });
 
 
-// Raccourcis clavier : B (pinceau), E (gomme), C (effacer), S (sauvegarder)
 
